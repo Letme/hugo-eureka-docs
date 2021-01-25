@@ -126,6 +126,11 @@ The post page has the following commonly used Front Matters:
 - **featuredVideo(string)**: Featured video. Please refer to [Video Loading](#video-loading). When `featuredVideo` and `featuredImage` exist at the same time, only `featuredVideo` will be displayed.
 - **featuredImage(string)**: Featured image. Please refer to [Image Loading](#image-loading) for related operations.
 - **draft(bool)**: Whether it is a draft, the default is `true`.
+- **carousel(string array)**: It is an array of paths towards images that should
+  be included in carousel. Please refer to [Image Loading](#image-loading) for related operations.
+- **carousel(dictionary array)**: It is an array of dictionary with members
+  `image` and `description` of images and related description that should
+  be included in carousel. Please refer to [Image Loading](#image-loading) for related operations.
 
 If you need to understand Hugo's predefined Front Matter, you can refer to Hugo's [Related Documents](https://gohugo.io/content-management/front-matter/).
 
@@ -141,6 +146,11 @@ The documentation page has the following commonly used Front Matters:
 - **lastmod(string)**: The last modification time of this page of the document, and the format should meet the [RFC 3339](https://tools.ietf.org/html/rfc3339) date format.
 - **featuredImage(string)**: Featured pictures on this page of the document. For related operations, please refer to [Image Loading](#image-loading).
 - **draft(bool)**: Whether it is a draft, the default is `true`.
+- **carousel(string array)**: It is an array of paths towards images that should
+  be included in carousel. Please refer to [Image Loading](#image-loading) for related operations.
+- **carousel(dictionary array)**: It is an array of dictionary with members
+  `image` and `description` of images and related description that should
+  be included in carousel. Please refer to [Image Loading](#image-loading) for related operations.
 
 If you need to understand Hugo's predefined Front Matter, you can refer to Hugo's [Related Documents](https://gohugo.io/content-management/front-matter/).
 
